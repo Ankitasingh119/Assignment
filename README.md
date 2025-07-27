@@ -24,12 +24,18 @@ https://dummyjson.com/products
 
 ## 📦 Setup Instructions
 
-1️⃣ Clone the Repo  
 ```bash
-git clone https://github.com/YOUR_USERNAME/flutter_product_app.git
-cd flutter_product_app
+# 1️⃣ Clone the repo
+git clone https://github.com/Ankitasingh119/Assignment.git
+cd Assignment
+
+# 2️⃣ Install dependencies
 flutter pub get
+
+# 3️⃣ Run the app
 flutter run
+
+# ✅ Project structure
 lib/
 ├── app.dart                       # Root app setup
 ├── main.dart                      # Entry point
@@ -40,5 +46,5 @@ lib/
 │   └── favorites/
 ├── screens/                       # splash, home, detail, favorites
 ├── widgets/                       # UI components (list/grid items, loader)
-https://github.com/Ankitasingh119/Assignment
+
 
