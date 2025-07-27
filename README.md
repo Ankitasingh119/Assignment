@@ -1,16 +1,44 @@
 # flutter_assignment
 
-A new Flutter project.
+# 📱 Flutter Product App
 
-## Getting Started
+A Flutter application that fetches and displays products from a public API using `flutter_bloc`, following clean architecture with the **Repository Pattern**. It supports infinite scroll, sorting, favorites, grid/list toggle, and detailed product views.
 
-This project is a starting point for a Flutter application.
+## 🔗 Public API Used
 
-A few resources to get you started if this is your first Flutter project:
+https://dummyjson.com/products
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Splash Screen  
+- Product Home Screen  
+- Grid/List View Toggle  
+- Infinite Scroll Pagination  
+- Product Detail Screen  
+- Mark/Unmark Favorites  
+- Favorites Screen  
+- Sorting by Price, Rating, Name  
+- Shimmer Loader while fetching  
+- Error & Empty State Handling  
+- Responsive UI (Mobile & Tablet)
+
+## 📦 Setup Instructions
+
+1️⃣ Clone the Repo  
+```bash
+git clone https://github.com/YOUR_USERNAME/flutter_product_app.git
+cd flutter_product_app
+flutter pub get
+flutter run
+lib/
+├── app.dart                       # Root app setup
+├── main.dart                      # Entry point
+├── models/                        # Data models (Product)
+├── repositories/                  # API logic (ProductRepository)
+├── blocs/                         # BLoC logic for list and favorites
+│   ├── product_list/
+│   └── favorites/
+├── screens/                       # splash, home, detail, favorites
+├── widgets/                       # UI components (list/grid items, loader)
+https://github.com/Ankitasingh119/Assignment
+
